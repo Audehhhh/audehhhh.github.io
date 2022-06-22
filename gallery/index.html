@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>homepage</title>
+</head>
+
+<style>
+      .main{
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .img-box{
+        height: 200px;
+        width: 200px;
+        border: solid blue;
+        margin: 50px;
+      }
+
+      .modified-img{
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+        margin: 50px;
+      }
+
+  
+#rig{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 0;
+	list-style: none;
+	background-color: none;
+}
+#rig li{
+	display: inline-block;
+	*display: inline;
+	width: 25%;
+	vertical-align: middle;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.rig-cell{
+	margin: 12px;
+	border-radius: 5px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+	padding: 16px;
+	border: none;
+	color: #555;
+	background-color: white;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+.rig-cell h3{
+	font-size: 18px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: normal;
+}
+
+.rig-img1{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("/aset/voly.jpeg");
+	background-repeat: no-repeat;
+}
+.rig-img2{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("/aset/voly2.jpeg");
+	background-repeat: no-repeat;
+}
+.rig-img3{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("/aset/voly3.jpeg");
+	background-repeat: no-repeat;
+}
+.rig-img4{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("/aset/voly4.jpeg");
+	background-repeat: no-repeat;
+}
+.rig-img5{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("/aset/voly5.jpeg");
+	background-repeat: no-repeat;
+}
+.rig-img6{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("/aset/voly6.jpeg");
+	background-repeat: no-repeat;
+}
+.rig-img7{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("/aset/voly7.jpeg");
+	background-repeat: no-repeat;
+}
+.rig-img8{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("/aset/voly8.jpeg");
+	background-repeat: no-repeat;
+}
+.rig-overlay{
+	position: absolute;
+	display: block;
+	top: 0;left: 0;bottom: 0;right: 0;
+	margin: auto;
+	background: white;
+	background-size: 50px 50px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: all 0.3s;
+}
+#rig li:hover .rig-overlay{
+	opacity: 0.5;
+}
+
+@media(max-width: 9000px){
+	#rig li{width: 25%;}
+}
+@media(max-width: 800px){
+	#rig li{width: 33.33%;}
+}
+@media(max-width: 500px){
+	#rig li{width: 50%;}
+}
+@media(max-width: 350px){
+	#rig li{width: 100%;}
+}
+
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" >Gallery</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="/profil">Profil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/sosmed">Sosmed</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/gallery">Gallery</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+   
+      <div class="container-fluid bg-dark text-light" style="height: 100vh;">
+      <ul id="rig">
+        <li>
+          <a class="rig-cell">
+            <span class="rig-img1"></span>
+            <span class="rig-overlay"></span>
+          </a>
+        </li>
+        <li>
+          <a class="rig-cell">
+            <span class="rig-img2"></span>
+            <span class="rig-overlay"></span>
+          </a>
+        </li>
+        <li>
+          <a class="rig-cell">
+            <span class="rig-img3"></span>
+            <span class="rig-overlay"></span>
+          </a>
+        </li>
+        <li>
+          <a class="rig-cell">
+            <span class="rig-img4"></span>
+            <span class="rig-overlay"></span>
+          </a>
+        </li>
+        <li>
+          <a class="rig-cell">
+            <span class="rig-img5"></span>
+            <span class="rig-overlay"></span>
+          </a>
+        </li>
+        <li>
+          <a class="rig-cell">
+            <span class="rig-img6"></span>
+            <span class="rig-overlay"></span>
+          </a>
+        </li>
+        <li>
+          <a class="rig-cell">
+            <span class="rig-img7"></span>
+            <span class="rig-overlay"></span>
+          </a>
+        </li>
+        <li>
+          <a class="rig-cell">
+            <span class="rig-img8"></span>
+            <span class="rig-overlay"></span>
+          </a>
+        </li>
+      </ul>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
